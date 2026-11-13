@@ -14,7 +14,7 @@ The repository contains the following components:
 - memex-data-service
 
 
-Each of the components have their own README. The software system uses the underinformed design of program integration across its data access and user authentication functionalities, providing both data endpoints and authentication endpoints via the `memex-service` system component. The `memex-data-service` system component is a partial implementation of a cloud backup utility and is not essential to the functioning of the system. The repository also contains a library named `memex-spring-data`, which is used to bind data types across the `memex-service` and `memex-data-service` components.
+Each of the components have a README at the root of their containing directories. The software system uses the underinformed design of program integration across its data access and user authentication functionalities, providing both data endpoints and authentication endpoints via the `memex-service` system component. The `memex-data-service` system component is a partial implementation of a cloud backup utility and is not essential to the functioning of the system. The repository also contains a library named `memex-spring-data`, which is used to bind data types across the `memex-service` and `memex-data-service` components.
 
 The system was used to record personal journal entries and is no longer in use.
 
