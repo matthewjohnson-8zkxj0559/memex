@@ -48,7 +48,7 @@ If the application starts but authentication fails with a 401 response, a possib
 
 To use the app:
    - Select the plus sign to create a new entry.
-   - Type in the dark grey text box to populate the entry. Please allow 5 to 10 seconds for the entry to automatically persist (see the 'timeInterval' variable in the EntryScreenComponent class of the memex-ui program). Select the plus sign to create a new entry or close the app after the persistence interval has passed.
+   - Type in the dark grey text box to populate the entry. Please allow 5 to 10 seconds for the entry to automatically persist (see the 'timeInterval' variable in the EntryScreenComponent class of the memex-ui program). Select the plus sign to create a new entry or close the browser after the persistence interval has passed.
    - Search for previous entries from the 'Retrieval' tab. An empty search string returns all entries. Non-empty search strings are matched exactly with up to 1 character typo (see the 'fuzziness' variable in the RawTextESRestTemplate class of the memex-spring-data library). Selecting a search result from the 'Retrieval' tab will navigate to the 'Entry' tab.
    - Delete entries by selecting the entry from the 'Retrieval' tab and then deleting the content of the 'Entry' tab text box. Proper delete functionality was not implemented.
 
